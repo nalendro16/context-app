@@ -1,9 +1,11 @@
+import Booklist from './components/Booklist'
 import Navbar from './components/NavBar'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Booklist />
     </div>
   )
 }
